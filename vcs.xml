@@ -26,6 +26,10 @@
           <option name="url" value="http://192.168.197.26:10080/zhuqingfeng/payment-admin.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/zuihou/zuihou-admin-cloud.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Developer/GithubProjects" />
