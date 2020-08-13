@@ -1,11 +1,13 @@
 <application>
   <component name="ProjectManager">
     <defaultProject>
+      <component name="AutoImportSettings">
+        <option name="autoReloadType" value="SELECTIVE" />
+      </component>
       <component name="CheckStyle-IDEA">
         <option name="configuration">
           <map>
-            <entry key="active-configuration" value="BUNDLED:(bundled):Google Checks" />
-            <entry key="checkstyle-version" value="8.31" />
+            <entry key="checkstyle-version" value="8.34" />
             <entry key="copy-libs" value="false" />
             <entry key="location-0" value="BUNDLED:(bundled):Sun Checks" />
             <entry key="location-1" value="BUNDLED:(bundled):Google Checks" />
@@ -15,217 +17,13 @@
           </map>
         </option>
       </component>
-      <component name="CodeInsightWorkspaceSettings">
-        <option name="optimizeImportsOnTheFly" value="true" />
-      </component>
       <component name="CompilerConfiguration">
         <annotationProcessing>
           <profile default="true" name="Default" enabled="true" />
         </annotationProcessing>
       </component>
-      <component name="CompilerWorkspaceConfiguration">
-        <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-      </component>
-      <component name="GoogleJavaFormatSettings">
-        <option name="enabled" value="true" />
-      </component>
-      <component name="MavenImportPreferences">
-        <option name="generalSettings">
-          <MavenGeneralSettings>
-            <option name="userSettingsFile" value="$USER_HOME$/Developer/maven/settings.xml" />
-          </MavenGeneralSettings>
-        </option>
-        <option name="importingSettings">
-          <MavenImportingSettings>
-            <option name="jdkForImporter" value="11" />
-            <option name="vmOptionsForImporter" value="-Xmx768m" />
-          </MavenImportingSettings>
-        </option>
-      </component>
-      <component name="MavenRunner">
-        <option name="skipTests" value="true" />
-      </component>
-      <component name="ProjectDictionaryState">
-        <dictionary name="ucucs" />
-      </component>
-      <component name="ProjectInspectionProfilesVisibleTreeState">
-        <entry key="Project Default">
-          <profile-state>
-            <expanded-state>
-              <State />
-              <State>
-                <id>Assignment issuesGroovy</id>
-              </State>
-              <State>
-                <id>Assignment issuesJava</id>
-              </State>
-              <State>
-                <id>Assignment issuesJavaScript and TypeScript</id>
-              </State>
-              <State>
-                <id>Bitwise operation issuesJavaScript and TypeScript</id>
-              </State>
-              <State>
-                <id>Control flow issuesJava</id>
-              </State>
-              <State>
-                <id>EditorConfig</id>
-              </State>
-              <State>
-                <id>GeneralJavaScript and TypeScript</id>
-              </State>
-              <State>
-                <id>Groovy</id>
-              </State>
-              <State>
-                <id>Java</id>
-              </State>
-              <State>
-                <id>JavaScript and TypeScript</id>
-              </State>
-              <State>
-                <id>Potentially confusing code constructsGroovy</id>
-              </State>
-              <State>
-                <id>Potentially confusing code constructsJavaScript and TypeScript</id>
-              </State>
-              <State>
-                <id>Probable bugsGroovy</id>
-              </State>
-              <State>
-                <id>Probable bugsJava</id>
-              </State>
-              <State>
-                <id>Probable bugsJavaScript and TypeScript</id>
-              </State>
-              <State>
-                <id>Proofreading</id>
-              </State>
-              <State>
-                <id>Switch statement issuesJavaScript and TypeScript</id>
-              </State>
-              <State>
-                <id>Threading issuesGroovy</id>
-              </State>
-              <State>
-                <id>Threading issuesJava</id>
-              </State>
-              <State>
-                <id>UI form</id>
-              </State>
-              <State>
-                <id>XPath</id>
-              </State>
-            </expanded-state>
-            <selected-state>
-              <State>
-                <id>UI form</id>
-              </State>
-            </selected-state>
-          </profile-state>
-        </entry>
-      </component>
-      <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
       <component name="PropertiesComponent">
-        <property name="project.structure.last.edited" value="Project" />
-        <property name="project.structure.proportion" value="0.15" />
-        <property name="project.structure.side.proportion" value="0.2" />
-        <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
-      </component>
-      <component name="RunManager">
-        <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-          <option name="ALTERNATIVE_JRE_PATH" />
-          <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-          <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-          <method v="2">
-            <option name="Make" enabled="true" />
-          </method>
-        </configuration>
-        <configuration default="true" type="com.intellij.dmserver.run.DMServerRunConfigurationType:id" factoryName="Spring dmServer (Local)" ALTERNATIVE_JRE_ENABLED="false">
-          <deployment />
-          <server-settings>
-            <option name="MBeanPort" value="9875" />
-            <option name="MBeanUserName" value="admin" />
-            <mbean-port>9875</mbean-port>
-            <mbean-user>admin</mbean-user>
-          </server-settings>
-          <RunnerSettings RunnerId="Debug">
-            <option name="DEBUG_PORT" value="51177" />
-          </RunnerSettings>
-          <ConfigurationWrapper VM_VAR="DEBUG_OPTS" RunnerId="Cover">
-            <option name="USE_ENV_VARIABLES" value="true" />
-            <STARTUP>
-              <option name="USE_DEFAULT" value="true" />
-              <option name="SCRIPT" value="" />
-              <option name="VM_PARAMETERS" value="" />
-              <option name="PROGRAM_PARAMETERS" value="" />
-            </STARTUP>
-            <SHUTDOWN>
-              <option name="USE_DEFAULT" value="true" />
-              <option name="SCRIPT" value="" />
-              <option name="VM_PARAMETERS" value="" />
-              <option name="PROGRAM_PARAMETERS" value="" />
-            </SHUTDOWN>
-          </ConfigurationWrapper>
-          <ConfigurationWrapper VM_VAR="DEBUG_OPTS" RunnerId="Debug">
-            <option name="USE_ENV_VARIABLES" value="true" />
-            <STARTUP>
-              <option name="USE_DEFAULT" value="true" />
-              <option name="SCRIPT" value="" />
-              <option name="VM_PARAMETERS" value="" />
-              <option name="PROGRAM_PARAMETERS" value="" />
-            </STARTUP>
-            <SHUTDOWN>
-              <option name="USE_DEFAULT" value="true" />
-              <option name="SCRIPT" value="" />
-              <option name="VM_PARAMETERS" value="" />
-              <option name="PROGRAM_PARAMETERS" value="" />
-            </SHUTDOWN>
-          </ConfigurationWrapper>
-          <ConfigurationWrapper VM_VAR="DEBUG_OPTS" RunnerId="Run">
-            <option name="USE_ENV_VARIABLES" value="true" />
-            <STARTUP>
-              <option name="USE_DEFAULT" value="true" />
-              <option name="SCRIPT" value="" />
-              <option name="VM_PARAMETERS" value="" />
-              <option name="PROGRAM_PARAMETERS" value="" />
-            </STARTUP>
-            <SHUTDOWN>
-              <option name="USE_DEFAULT" value="true" />
-              <option name="SCRIPT" value="" />
-              <option name="VM_PARAMETERS" value="" />
-              <option name="PROGRAM_PARAMETERS" value="" />
-            </SHUTDOWN>
-          </ConfigurationWrapper>
-          <method v="2">
-            <option name="Make" enabled="true" />
-          </method>
-        </configuration>
-      </component>
-      <component name="SpringGeneralSettings">
-        <option name="allowAutoConfigurationMode" value="true" />
-      </component>
-      <component name="masterDetails">
-        <states>
-          <state key="GlobalLibrariesConfigurable.UI" />
-          <state key="JdkListConfigurable.UI">
-            <settings>
-              <last-edited>11</last-edited>
-            </settings>
-          </state>
-          <state key="ProjectLibrariesConfigurable.UI" />
-          <state key="ScopeChooserConfigurable.UI">
-            <settings>
-              <splitter-proportions>
-                <option name="proportions">
-                  <list>
-                    <option value="0.2" />
-                  </list>
-                </option>
-              </splitter-proportions>
-            </settings>
-          </state>
-        </states>
+        <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
       </component>
     </defaultProject>
   </component>
